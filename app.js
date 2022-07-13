@@ -18,3 +18,18 @@ const findLongestWord = (list) => {
 }
 
     console.log(findLongestWord(avengers));  
+
+
+/* Iteración #3: Calcular la suma/cúmulo */
+
+const numbers = [1, 2, 3, 5, 45, 37, 58];
+
+function sumAll(listNum) {
+    let acc = 0;
+    for(let value of listNum){
+        acc += value;
+    }
+    return acc;
+}
+let sumTotal = sumAll(numbers);
+console.log(sumAll(numbers));
